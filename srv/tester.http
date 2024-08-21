@@ -1,0 +1,5 @@
+###
+http://localhost:4004/odata/v4/CatalogService/employee/14149491-b943-46a5-bdd2-a59d7ad00cad
+
+###
+http://localhost:4004/odata/v4/CatalogService/employee?$top=10

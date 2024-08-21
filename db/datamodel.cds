@@ -76,6 +76,7 @@ context transaction {
         PO_ID: String(40) @title : '{i18n>PO_ID}';
         PARTNER_GUID: Association to master.businesspartner @title : '{i18n>PARTNER_KEY}';
         LIFECYCLE_STATUS: String(1);
+        LIFECYCLE_STATUS: String(1);
         OVERALL_STATUS: String(1) @title : '{i18n>STATUS}';
         Items: Composition of  many poitems on Items.PARENT_KEY = $self;
     }
